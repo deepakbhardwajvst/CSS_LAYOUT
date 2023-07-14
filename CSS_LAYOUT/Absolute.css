@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    position: relative;
+  }
+  .child1 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .child2 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+  }
+  
+  .child3 {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+  }
+  
+  .container {
+    border: 3px solid black;
+    width: 500px;
+    position: relative;
+  }
+  
